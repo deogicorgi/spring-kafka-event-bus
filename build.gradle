@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.deogicorgi'
-version = '0.0.1-SNAPSHOT'
+version = '1.0'
 
 java {
     sourceCompatibility = '17'
@@ -16,7 +16,10 @@ repositories {
 }
 
 dependencies {
+    // Spring Boot
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // Test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
